@@ -1,0 +1,92 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+//int main(){
+//    double Ta,V,Twc;
+//    cout<<"Enter the temperature in Fahrenheit between -58'F and 41'F: ";
+//    cin>>Ta;
+//    cout<<"Enter the wind speed (>=2) in miles per hour: ";
+//    cin>>V;
+//    Twc=35.74+0.6215*Ta-35.75* pow(V,0.16)+0.4275*Ta* pow(V,0.16);
+//    if (-58>Ta || Ta>41){
+//        cout<<"Temperature must between -58'F and 41'F";
+//    if (V<2)
+//        cout<<"Speed must be below 2 mph";}
+//    else
+//        cout<<"The wind chill index is "<<Twc;
+//    return 0;}
+
+
+
+//int main(){
+//    int a,b,c;
+//    cin>>a>>b>>c;
+//    if(a%b==0 && a%c==0)
+//        cout<<b<<" and "<<c<<" are factors of "<<a;
+//    else if (a%b==0 && a%c!=0)
+//        cout<<b<<" is a factor of "<<a<<",but "<<c<<" is not";
+//    else if (a%b!=0 && a%c==0)
+//        cout<<c<<" is a factor of "<<a<<",but "<<b<<" is not";
+//    else
+//        cout<<b<<" and "<<c<<" are not factors of "<<a;}
+
+
+//int main(){
+//    int n,next;
+//    cin>>n;
+//    int n1=0;
+//    int n2=1;
+//    int sum=0;
+//    for (int i = 0; i < n+1; ++i) {
+//        sum += 2;
+//
+//        if (n == i){
+//            n1+=n2;
+//            n2+=n1;
+//            cout<<n1<<", "<<n2;}
+//        else
+//            cout<<n1<<", "<<n2<<", ";
+//
+//    }
+//}
+
+
+
+
+
+//int main(){
+//    int number;
+//    cin>>number;
+//    int dig1=number/1000;
+//    int dig2=(number%1000)/100;
+//    int dig3=(number%100)/10;
+//    int dig4=number%10;
+//    int enc1=(dig1+7)%10;
+//    int enc2=(dig2+7)%10;
+//    int enc3=(dig3+7)%10;
+//    int enc4=(dig4+7)%10;
+//    swap(enc1, enc3);
+//    swap(enc2, enc4);
+//    cout<<enc1<<enc2<<enc3<<enc4;}
+
+
+
+//int main(){
+//    int n,d;
+//    cout<<"Enter the quantity of numbers: ";
+//    cin>>n;
+//    cout<<"Enter the number";
+//    cin>>d;
+//    int smallest=d;
+//    for (int i = 1; i < n; ++i) {
+//        cout<<"Enter the number";
+//        cin>>d;
+//        if (d<smallest){
+//            smallest=d;
+//        }
+//        else
+//            continue;
+//    }cout<<smallest;
+//}
